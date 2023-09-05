@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="min-h-screen overflow-hidden overall__main__container">
-        <MatrixCode className="absolute inset-0" />
+        <MatrixCode className="absolute inset-0 overall__main__container" />
         <div className="flex flex-col">
           <Navbar />
           <Hero />
