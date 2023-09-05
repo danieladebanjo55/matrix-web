@@ -1,10 +1,17 @@
 import React from "react";
 import "./Offer.scss";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 function Offer() {
   return (
     <>
-      <div className="main__learn__container offer">
+      <div
+        className="main__learn__container offer"
+        data-aos="zoom-in"
+        data-aos-easing="ease-in"
+        data-aos-duration="1000"
+      >
         <div className="learn__container">
           <div className="learn__title">
             <h2>What We Also Have To Offer</h2>

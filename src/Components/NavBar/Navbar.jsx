@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Navbar() {
   return (

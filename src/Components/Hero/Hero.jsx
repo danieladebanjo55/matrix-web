@@ -1,8 +1,13 @@
 import React from "react";
 import "./Hero.scss";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Image from "./hero-logo.png";
 import Video from "./hero-video.mp4";
+
+AOS.init();
 
 function Hero() {
   return (
@@ -12,7 +17,12 @@ function Hero() {
           <div className="logo__hero">
             <img src={Image} alt="hero-logo" />
           </div>
-          <div className="word__hero">
+          <div
+            className="word__hero"
+            data-aos="fade-up-left"
+            data-aos-easing="ease"
+            data-aos-duration="1000"
+          >
             <h2 className="first__text">
               Everyone Wants To Be <b>Rich...</b> <br />
               But Doesn't Know Where To Start.
