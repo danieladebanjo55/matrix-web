@@ -1,3 +1,8 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+.overall__main__container {
+  height: fit-content;
+  padding-bottom: 30px;
+}
