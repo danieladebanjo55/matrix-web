@@ -35,7 +35,7 @@ function Offer() {
             <h2>Your Chance To Live Your Dream Life Is One Click Away</h2>
           </div>
           <div className="learn__button">
-            <button>SIGN UP</button>
+            <button>Secure Your Spot</button>
           </div>
         </div>
       </div>

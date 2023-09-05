@@ -1,6 +1,6 @@
 .hero__main__container {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -14,14 +14,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 10px 25px;
+    padding: 10px 20px;
     // border: 2px solid #fff;
-    background-color: #02233fd4;
+    background-color: transparent;
     padding-bottom: 20px;
 
-    .logo__hero {
-      padding: 5px 2px;
-    }
+    // .logo__hero {
+    //   padding: 5px 2px;
+    // }
 
     .word__hero {
       //   border: 1px solid #fff;
@@ -34,20 +34,24 @@
       gap: 1rem;
 
       .first__text {
-        font-family: "League Spartan", sans-serif;
+        font-family: "Andika", sans-serif;
         color: #fff;
-        font-size: 45px;
+        font-size: 48px;
         text-align: center;
+        font-weight: 700;
+        height: fit-content;
       }
 
       .second__text {
-        font-family: "Lato", sans-serif;
+        font-family: "Lora", serif;
+        font-weight: 500;
         color: #fff;
         font-size: 30px;
       }
 
       .third__text {
-        font-family: "League Spartan", sans-serif;
+        font-family: "Andika", sans-serif;
+        font-weight: 600;
         color: #fff;
         font-size: 40px;
         text-align: center;
@@ -79,18 +83,30 @@
         border: 1px solid #fff;
         padding: 20px 25px;
         border-radius: 0.625rem;
-        background-color: #02233f;
+        background-color: #02233f04;
         text-align: center;
+        transition: 0.5s ease-in;
 
         button {
-          font-family: "League Spartan", sans-serif;
+          font-family: "Andika", sans-serif;
           color: #fff;
           font-size: 30px;
           font-weight: 600;
         }
       }
+
+      .video__button:hover {
+        padding: 30px 35px;
+        transition: 0.5s ease-in;
+      }
     }
   }
+}
+
+.rat__race {
+  color: #0f94d9;
+  font-size: 48px;
+  font-weight: 800;
 }
 
 @media only screen and (max-width: 480px) {
@@ -99,10 +115,6 @@
   }
   .hero__content__container {
     padding: 10px 5px !important;
-  }
-  .logo__hero {
-    width: 100px;
-    height: auto;
   }
 
   .first__text {

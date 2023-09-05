@@ -10,17 +10,24 @@ function Expect() {
     <>
       <div className="main__expect__container">
         <div className="expect__container">
-          <div className="expect__left">
+          <div
+            className="expect__left"
+            data-aos="slide-up"
+            data-aos-easing="ease"
+            data-aos-duration="1000"
+          >
             <img src={Image} alt="expect-image" />
           </div>
           <div
             className="expect__right"
-            data-aos="slide-left"
+            data-aos="slide-up"
             data-aos-easing="ease"
             data-aos-duration="1000"
           >
             <div className="right__title">
-              <h2>What You Could Expect</h2>
+              <h2>
+                <b>What You Could Expect</b>
+              </h2>
             </div>
             <div className="right__list">
               <ul className="my__list">

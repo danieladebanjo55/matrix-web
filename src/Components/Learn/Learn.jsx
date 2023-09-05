@@ -50,7 +50,7 @@ function Learn() {
             <h2>Break The Cycle Of The Poor And Live Your Dream Life...</h2>
           </div>
           <div
-            className="learn__button"
+            className="learn__button my__learn"
             data-aos="fade-in"
             data-aos-easing="ease"
             data-aos-duration="1000"

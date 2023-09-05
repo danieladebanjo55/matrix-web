@@ -3,8 +3,6 @@ import "./Hero.scss";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-import Image from "./hero-logo.png";
 import Video from "./hero-video.mp4";
 
 AOS.init();
@@ -14,28 +12,24 @@ function Hero() {
     <>
       <div className="hero__main__container">
         <div className="hero__content__container">
-          <div className="logo__hero">
-            <img src={Image} alt="hero-logo" />
-          </div>
           <div
             className="word__hero"
-            data-aos="zoom-out"
+            data-aos="fade-up"
             data-aos-easing="ease"
             data-aos-duration="1000"
           >
             <h2 className="first__text">
-              Everyone Wants To Be <b>Rich...</b> <br />
-              But Doesn't Know Where To Start.
+              Trapped In A<span className="rat__race">&nbsp;Rat Race</span>?
             </h2>
 
             <h3 className="second__text">
-              I will walk <b>YOU</b> through step by step
+              I will <b>teach you&nbsp;</b>how to<b>&nbsp;escape.</b>
             </h3>
 
-            <h4 className="third__text">
+            {/* <h4 className="third__text">
               How to start a business and scale to your first <br />
               <b>$100,000...</b>
-            </h4>
+            </h4> */}
           </div>
           <div className="hero__video__context">
             <div className="hero__video">
@@ -44,7 +38,7 @@ function Hero() {
               </video>
             </div>
             <div className="video__button">
-              <button>I Want To Be Rich</button>
+              <button>Secure Your Spot</button>
             </div>
           </div>
         </div>

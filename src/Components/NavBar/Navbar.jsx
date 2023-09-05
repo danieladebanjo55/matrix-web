@@ -3,6 +3,8 @@ import "./Navbar.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import Image from "./logo-copy.png";
+
 function Navbar() {
   return (
     <>
@@ -10,6 +12,9 @@ function Navbar() {
         <div className="content__container">
           <div className="shop__button">
             <button>SHOP</button>
+          </div>
+          <div className="logo__hero">
+            <img src={Image} alt="hero-logo" />
           </div>
           <div className="signup__button">
             <button>START NOW</button>
