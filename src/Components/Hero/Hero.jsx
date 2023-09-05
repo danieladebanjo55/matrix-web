@@ -19,7 +19,7 @@ function Hero() {
           </div>
           <div
             className="word__hero"
-            data-aos="fade-up-left"
+            data-aos="zoom-out"
             data-aos-easing="ease"
             data-aos-duration="1000"
           >

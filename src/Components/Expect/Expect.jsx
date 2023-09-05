@@ -13,7 +13,12 @@ function Expect() {
           <div className="expect__left">
             <img src={Image} alt="expect-image" />
           </div>
-          <div className="expect__right">
+          <div
+            className="expect__right"
+            data-aos="slide-left"
+            data-aos-easing="ease"
+            data-aos-duration="1000"
+          >
             <div className="right__title">
               <h2>What You Could Expect</h2>
             </div>
