@@ -1,0 +1,81 @@
+.main__nav__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  //   border: 3px solid #fff;
+  height: 80px;
+  padding: 10px 10px;
+  //   background-color: #02233f;
+  //   background-color: #02233f;
+  z-index: 2;
+  margin-top: 20px;
+
+  .content__container {
+    width: 90%;
+    // border: 3px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .shop__button {
+      min-width: 150px;
+      max-width: 350px;
+      //   border: 1px solid #fff;
+      padding: 12px 20px;
+      border-radius: 0.625rem;
+      background-color: #02233f;
+      text-align: center;
+      cursor: pointer;
+
+      button {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+      }
+    }
+
+    .signup__button {
+      min-width: 150px;
+      max-width: 350px;
+      //   border: 1px solid #fff;
+      padding: 12px 20px;
+      border-radius: 0.625rem;
+      background-color: #02233f;
+      text-align: center;
+      cursor: pointer;
+
+      button {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main__nav__container {
+    margin-top: 5px !important;
+  }
+
+  .shop__button {
+    min-width: 100px !important;
+    padding: 10px 10px !important;
+    border-radius: 0.3rem !important;
+
+    button {
+      font-size: 18px !important;
+    }
+  }
+
+  .signup__button {
+    min-width: 150px !important;
+    padding: 10px 10px !important;
+    border-radius: 0.3rem !important;
+
+    button {
+      font-size: 18px !important;
+    }
+  }
+}

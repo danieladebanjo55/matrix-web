@@ -1,0 +1,78 @@
+.main__expect__container {
+  height: max-content;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 15px;
+  margin: 0 auto;
+
+  .expect__container {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    // background-color: #02233fd4;
+
+    .expect__left {
+      width: 50%;
+      height: auto;
+    }
+
+    .expect__right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      height: 45vh;
+      width: 50%;
+      background-color: #02233fd4;
+      padding: 20px;
+
+      .right__title {
+        font-family: "League Spartan", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        color: #fff;
+        // border: 1px solid #fff;
+        width: 93%;
+        text-align: left !important;
+      }
+
+      .right__list {
+        font-family: "Lato", sans-serif;
+        color: #fff;
+        padding: 0 20px;
+        font-size: 20px;
+
+        ul.my__list {
+          list-style-type: square;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .expect__container {
+    flex-direction: column !important;
+  }
+
+  .expect__left {
+    width: 100% !important;
+  }
+
+  .expect__right {
+    width: 100% !important;
+    height: fit-content !important;
+  }
+
+  .right__title h2 {
+    text-align: center !important;
+  }
+}
