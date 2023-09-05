@@ -11,8 +11,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="min-h-screen overflow-hidden overall__main__container">
-        <MatrixCode className="absolute inset-0 overall__main__container" />
+      <div className="absolute min-h-screen overflow-hidden overall__main__container">
+        <MatrixCode className="absolute inset-0" />
         <div className="flex flex-col overall__main__container">
           <Navbar />
           <Hero />
