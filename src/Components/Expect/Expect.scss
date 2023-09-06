@@ -1,5 +1,5 @@
 .main__expect__container {
-  height: max-content;
+  height: 100vh;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -75,5 +75,11 @@
 
   .right__title h2 {
     text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main__expect__container {
+    height: fit-content;
   }
 }

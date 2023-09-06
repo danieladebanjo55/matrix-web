@@ -19,7 +19,7 @@ function Hero() {
             data-aos-duration="1000"
           >
             <h2 className="first__text">
-              Trapped In A<span className="rat__race">&nbsp;Rat Race</span>?
+              Trapped In The<span className="rat__race">&nbsp;Rat Race</span>?
             </h2>
 
             <h3 className="second__text">

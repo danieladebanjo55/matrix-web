@@ -1,6 +1,7 @@
 .main__learn__container {
   height: max-content;
   width: 90%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,8 +19,9 @@
     align-items: center;
 
     .learn__title {
+      padding: 15px 0;
       color: #fff;
-      font-size: 35px;
+      font-size: 38px;
       font-weight: 600;
       font-family: "Andika", sans-serif;
     }
@@ -105,5 +107,45 @@
 
   button {
     font-size: 35px !important;
+  }
+}
+
+.main__card__container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+
+    .card1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 2rem;
+      flex-wrap: wrap;
+      width: 100%;
+      height: fit-content;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .card1 {
+    gap: 4rem !important;
+  }
+
+  .card__container {
+    gap: 4rem !important;
   }
 }
