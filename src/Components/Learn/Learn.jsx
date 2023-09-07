@@ -77,7 +77,7 @@ function Learn() {
             data-aos-easing="ease"
             data-aos-duration="1000"
           >
-            <button>Secure Your Spot</button>
+            <button className="big-button">Secure Your Spot</button>
           </div>
         </div>
       </div>

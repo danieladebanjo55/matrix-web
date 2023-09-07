@@ -38,7 +38,7 @@ function Hero() {
               </video>
             </div>
             <div className="video__button">
-              <button>Secure Your Spot</button>
+              <button className="big-button">Secure Your Spot</button>
             </div>
           </div>
         </div>
