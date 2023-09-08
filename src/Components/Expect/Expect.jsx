@@ -3,9 +3,30 @@ import "./Expect.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import { useEffect } from "react";
+
 import Image from "./expect-image.jpg";
 
 function Expect() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const horizontalLine = document.querySelector(".horizontal__line2");
+      if (horizontalLine) {
+        const scrollPercentage =
+          (window.scrollY /
+            (document.documentElement.scrollHeight - window.innerHeight)) *
+          200;
+        horizontalLine.style.width = `${scrollPercentage}%`;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="main__expect__container">
@@ -43,6 +64,7 @@ function Expect() {
           </div>
         </div>
       </div>
+      <div className="container__line"></div>
     </>
   );
 }

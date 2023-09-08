@@ -83,3 +83,21 @@
     height: fit-content;
   }
 }
+
+.horizontal__line2 {
+  width: 25%;
+  height: 1.8px;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: width 0.5s ease;
+  box-shadow: -2px 0px 2px 3px #0b7db6c2;
+}
+
+.container__line {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -212,3 +212,14 @@
     font-size: 15px !important;
   }
 }
+
+.horizontal__line {
+  width: 45%;
+  height: 1.8px;
+  position: relative;
+  top: 60px !important;
+  cursor: pointer;
+  background-color: #fff;
+  transition: width 0.5s ease;
+  box-shadow: -2px 0px 2px 3px #0b7db6c2;
+}

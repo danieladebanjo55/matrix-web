@@ -1,13 +1,34 @@
 import React from "react";
+import { useEffect } from "react";
 import "./Hero.scss";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Video from "./hero-video.mp4";
+import Line from "./Line/Line";
 
 AOS.init();
 
 function Hero() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const horizontalLine = document.querySelector(".horizontal__line");
+      if (horizontalLine) {
+        const scrollPercentage =
+          (window.scrollY /
+            (document.documentElement.scrollHeight - window.innerHeight)) *
+          200;
+        horizontalLine.style.width = `${scrollPercentage}%`;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="hero__main__container">

@@ -1,0 +1,15 @@
+.horizontal-line {
+  width: 20%; /* Initial width of the line */
+  height: 2px; /* Height of the line */
+  background-color: #ffffff; /* Line color */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s; /* Transition property for the animation */
+}
+
+/* Add animation on scroll */
+.horizontal-line.animating {
+  width: 100%;
+  transition: width 0.5s;
+}
