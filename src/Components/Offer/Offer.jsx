@@ -15,7 +15,7 @@ function Offer() {
         className="main__learn__container offer"
         data-aos="zoom-in"
         data-aos-easing="ease-in"
-        data-aos-duration="500"
+        data-aos-duration="450"
       >
         <div className="learn__container">
           <div className="learn__title">
