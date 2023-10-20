@@ -3,7 +3,8 @@ import "./Offer.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import myVideo from "../Learn/card-video.mp4";
+import myVideo from "./online-store.mp4";
+import myVideo1 from "./appointment-setting.mp4";
 import Card from "./Cards/Card";
 
 AOS.init();
@@ -35,7 +36,7 @@ function Offer() {
                   Content={
                     "Learn the high income skill of appointment setting where you will see yourself travel from a beginner with $0 to an elite level appointment setter making $5k+ per month. All of this with JUST your phone. We’ve helped countless students achieve this life, so let us help you quit your 9-5 and Escape the Rat Race."
                   }
-                  Video={myVideo}
+                  Video={myVideo1}
                 />
               </div>
               {/* <Card Heading={""} Content={""} Video={myVideo} /> */}

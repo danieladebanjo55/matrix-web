@@ -5,7 +5,10 @@ import "aos/dist/aos.css";
 
 import Card from "./Cards/Card";
 
-import myVideo from "./card-video.mp4";
+import myVideo from "./business-fundamentals.mp4";
+import myVideo1 from "./select-your-wining-product.mp4";
+import myVideo2 from "./creating-your-grand-slam-offer.mp4";
+import myVideo3 from "./scale-for-profit.mp4";
 
 AOS.init();
 function Learn() {
@@ -41,28 +44,28 @@ function Learn() {
                   Content={
                     "Unlock the secrets to identifying and selecting  your winning product that will drive your business to success. We will teach you the skills needed to make informed decisions and maximize your chances of launching a product that resonates with your target audience."
                   }
-                  Video={myVideo}
+                  Video={myVideo1}
                 />
               </div>
               <div
                 className="card1"
                 data-aos="fade-up"
-                data-aos-easing="ease-in"
-                data-aos-duration="1000"
+                data-aos-easing="ease"
+                data-aos-duration="1300"
               >
                 <Card
                   Heading={"Create A Grand Slam Offer"}
                   Content={
                     "I will teach you how to craft an irresistible grand slam offer. Learn to identify customer needs, perfect pricing strategies, and create compelling sales pitches for unmatched business success."
                   }
-                  Video={myVideo}
+                  Video={myVideo2}
                 />
                 <Card
                   Heading={"Scale For Profit"}
                   Content={
                     "Master the strategies and tactics to efficiently grow your business, increase profitability, and achieve long-term success in a competitive marketplace. "
                   }
-                  Video={myVideo}
+                  Video={myVideo3}
                 />
               </div>
               {/* <Card Heading={""} Content={""} Video={myVideo} /> */}

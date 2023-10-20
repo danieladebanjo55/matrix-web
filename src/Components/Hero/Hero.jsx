@@ -4,7 +4,7 @@ import "./Hero.scss";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Video from "./hero-video.mp4";
+import Video from "./hero-video1.mp4";
 import Line from "./Line/Line";
 
 AOS.init();
