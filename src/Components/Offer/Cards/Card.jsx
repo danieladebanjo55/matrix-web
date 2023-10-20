@@ -9,7 +9,7 @@ function Card({ Heading, Content, Video }) {
           <div className="pack__heading">{Heading}</div>
           <div className="pack__text">{Content}</div>
           <div className="pack__video">
-            <video src={Video} controls autoPlay muted></video>
+            <video src={Video} controls muted></video>
           </div>
           <div className="card__button">
             <button>See More</button>
