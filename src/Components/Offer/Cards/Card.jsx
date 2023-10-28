@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.scss";
 
-function Card({ Heading, Content, Video }) {
+function Card({ Heading, Content, Video, Link }) {
   return (
     <>
       <div className="pack__container">
@@ -12,7 +12,9 @@ function Card({ Heading, Content, Video }) {
             <video src={Video} controls muted></video>
           </div>
           <div className="card__button">
-            <button>See More</button>
+            <a href={Link} target="_blank">
+              <button>See More</button>
+            </a>
           </div>
         </div>
       </div>

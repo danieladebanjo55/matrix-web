@@ -80,7 +80,13 @@ function Learn() {
             data-aos-easing="ease"
             data-aos-duration="1000"
           >
-            <button className="big-button">Secure Your Spot</button>
+            <a
+              href="https://upwardgrowth-course.teachable.com/purchase?product_id=5009665"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="big-button">Secure Your Spot</button>
+            </a>
           </div>
         </div>
       </div>
